@@ -1,7 +1,24 @@
 public class Pessoa {
 
-    public static void main(String[] args) {
-        // Aviso inicial da Orientação à Objetos
-        Pessoa adao = new Pessoa();
+        // Atributos
+        String nome;
+        String sobrenome;
+
+        // Métodos
+        public void falar(){
+            System.out.println("falei");
+        }
+
+        // Sobrecarga do método falar()
+        public String falar(String volume){
+            return "falei" + volume;
+        }
+        // Construtor
+        Pessoa(){
+
+
+        }
+    Pessoa(String _nome) {
+            this.nome = _nome;
     }
 }
