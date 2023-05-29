@@ -27,5 +27,6 @@ public class Main {
         // Consultar dados do objeto cao
         cao.nome = "Pluto"; // Atribuição
         System.out.println(cao.nome);
+        cao.comer(); // Chamando método comer()
     }
 }
