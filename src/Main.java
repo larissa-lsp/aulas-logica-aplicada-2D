@@ -28,5 +28,8 @@ public class Main {
         cao.nome = "Pluto"; // Atribuição
         System.out.println(cao.nome);
         cao.comer(); // Chamando método comer()
+        Pessoa nova = new Pessoa();
+        nova.nome = "Tina";
+        nova.comer();
     }
 }
