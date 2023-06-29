@@ -9,4 +9,5 @@ public class Solo {
     public Planta gerarPlanta(Semente semente){
         return new Planta(semente);
     }
+
 }
